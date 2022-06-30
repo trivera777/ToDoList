@@ -6,6 +6,8 @@ This is a simple To-Do List. User can list items and once they are completed, us
 
 # Preview 
 ![Screen Shot](./assets/todolist2.png) 
+<img src="./assets/todolist2.png" />
+
 
 # Built With
 - HTML5
