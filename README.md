@@ -5,9 +5,7 @@ This is a simple To-Do List. User can list items and once they are completed, us
 [Create your To-Do List](https://trivera777.github.io/ToDoList/)
 
 # Preview 
-![Screen Shot](./assets/todolist2.png) 
-
-<img src="./assets/todolist2.png"  width="800" />
+![Screen Shot](./assets/todolist2.PNG)
 
 
 # Built With
