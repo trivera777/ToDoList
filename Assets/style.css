@@ -1,35 +1,18 @@
-html, body {
-    width: 50%;
-    margin: 0 auto;
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+body {
+  background-color: var(--body-bg-color);
+  justify-items: center;
+  align-items: center;
+
 }
 
 .container {
-    width: 360px;
+    justify-items: center;
+    align-items: center;
 }
 
-#inputField {
-    width: 300px;
-    height: 46px;
-    border: 1px solid black;
-    outline: navy;
-    font-size: 25px;
-    vertical-align: middle;
-}
-
-#addToDo {
-    height: 50px;
-    width: 50px;
-    border: 1px solid salmon;
-    vertical-align: middle;
-    font-size: 30px;
-}
 
 .toDos {
     margin-top: 25px;
-}
-
-.paragraph-styling {
-    margin: 0px;
-    cursor: pointer;
-    font-size: 20px;
 }
