@@ -1,10 +1,17 @@
-
-document.querySelector('#push').onclick = function(){
-  if(document.querySelector('#newTask input').
-  value.length === 0){
-    alert('Please eneter a task!')
+document.querySelector("#push").onclick = function () {
+  if (document.querySelector("#newTask input").value.length === 0) {
+    alert("Please eneter a task!");
+  } else {
+    document.querySelector("#tasks").innerHTML +=
+      `
+    <div class='task'>
+    <span id='taskName'>
+    ${document.querySelector("#newTask input").value}
+    </span>
+    </div>
+    `;
   }
-}
+};
 
 // let addToDoButton = document.getElementById("addToDo");
 // let toDoContainer = document.getElementById("toDoContainer");
