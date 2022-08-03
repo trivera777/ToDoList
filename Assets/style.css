@@ -31,6 +31,12 @@ input {
     font-weight: 500;
     position: relative;
     color: #000;
+    border-radius: 5px;
+}
+
+input:focus{
+    outline: none;
+    border-color: #0e41ae;
 }
 
 button {
@@ -43,4 +49,12 @@ button {
     font-size: 16px;
     border: none;
     cursor: pointer;
+    color: #fff;
+    background-color: #0e41ae;
+}
+
+.tasks {
+    background-color: #fff;
+    padding: 30px 20px;
+    margin-top: 10px;
 }
