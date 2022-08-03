@@ -2,8 +2,24 @@
 
 body {
   height: 100vh;
-  background: linear-gradient(135deg, #01246f, #2050b8, #5782f0);
+  background: linear-gradient(135deg, #011746, #0e41ae, #467bff);
 }
+.container {
+    border: 2px solid white;
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 30px 40px;
+}
+
+.newTask {
+    background-color: #fff;
+    padding: 30px 20px;
+}
+
 h1 {
     color: cornsilk;
 }
