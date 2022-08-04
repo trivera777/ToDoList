@@ -9,10 +9,16 @@ document.querySelector("#push").onclick = function () {
     ${document.querySelector("#newTask input").value}
     </span>
     <button class='delete'>
-    <i class="fa-solid fa-trash" title='trash'></i>
+    <span class="icon-text has-text-danger">
+  <span class="icon">
+    <i class="fas fa-ban"></i>
+  </span>
+</span>
     </button>
     </div>
     `;
+
+    let currentTasks = document.querySelectorAll('.delete')
   }
 };
 
