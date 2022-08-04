@@ -5,6 +5,7 @@ This is a simple To-Do List. User can list items and once they are completed, us
 [Create your To-Do List](https://trivera777.github.io/ToDoList/)
 
 ![To Do List](./todolist.png)
+![To Do List](./list.png)
 
 # Built With
 - HTML5
