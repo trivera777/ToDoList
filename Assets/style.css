@@ -5,7 +5,6 @@ body {
   background: linear-gradient(135deg, #011746, #0e41ae, #467bff);
 }
 .container {
-    border: 2px solid white;
     width: 40%;
     min-width: 450px;
     position: absolute;
