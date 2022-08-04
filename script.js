@@ -26,12 +26,12 @@ document.querySelector("#push").onclick = function () {
     // however, it will put a line through
     // all tasks and not just one
 
-    // let tasks = document.querySelectorAll(".tasks");
-    // for (let i = 0; i < tasks.length; i++) {
-    //   tasks[i].onclick = function() {
-    //     this.classList.toggle("completed");
-    //   };
-    // }
+    let tasks = document.querySelectorAll(".task");
+    for (let i = 0; i < tasks.length; i++) {
+      tasks[i].onclick = function() {
+        this.classList.toggle("completed");
+      };
+    }
 
     document.querySelector("#newTask input").value = "";
   }
